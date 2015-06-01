@@ -8,15 +8,17 @@ module.exports = function(grunt) {
                     cacheLocation: '/tmp/sass-cache',
                     style: 'expanded'
                   },
-      files: {                         // Dictionary of files
-        'base.css': 'base.scss',       // 'destination': 'source'
-        'tab.css': 'tab.scss'
-      }
+      files: [{
+        expand: true,
+        cwd: 'treestyletab-theme-generator',
+        src: ['sass/*.scss'],
+        dest: 'ouput',
+        ext: '.css'
+      }]
     },
   },
 });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
-
   grunt.registerTask('default', ['sass']);
 };
