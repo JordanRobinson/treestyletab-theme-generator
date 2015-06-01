@@ -8,17 +8,28 @@ module.exports = function(grunt) {
                     cacheLocation: '/tmp/sass-cache',
                     style: 'expanded'
                   },
-      files: [{
-        expand: true,
-        cwd: 'treestyletab-theme-generator',
-        src: ['sass/*.scss'],
-        dest: 'ouput',
-        ext: '.css'
-      }]
-    },
-  },
-});
+                  files: [{
+                    expand: true,
+                    cwd: 'sass',
+                    src: ['*.scss'],
+                    dest: 'output',
+                    ext: '.css'
+                  }]
+                },
+              },
+              header: {
+                dist: {
+                  options: {
+                    text: '@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");'
+                  },
+                  files: {
+                    'output/tab.css': 'output/tab.css'
+                  }
+                }
+              }
+            });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.registerTask('default', ['sass']);
+  grunt.loadNpmTasks('grunt-header');
+  grunt.registerTask('default', ['sass', 'header']);
 };

@@ -1,4 +1,6 @@
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+
+@import "variables";
 
 .tabbrowser-tabs[treestyletab-mode="vertical"]
   .tabbrowser-tab,
