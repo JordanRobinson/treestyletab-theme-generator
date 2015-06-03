@@ -1,20 +1,9 @@
 Metal colour scheme
 
-
-./base.css:     background: #b3b2b3 !important;
-./base.css:     background: #acacac !important;
-./base.css:     background: #e4e4e4 !important;
-./base.css:     background: #b3b2b3 !important;
-./base.css:     background: #e4e4e4 !important;
-./base.css:     border-color: #9a9a9a !important;
-./base.css:     border-color: #9a9a9a !important;
-./base.css:     background: #b3b2b3 !important;
-./tab.css:      background: #9d9d9d !important;
-./tab.css:      background-color: #b3b2b3 !important;
-./tab.css:      border-color: #9a9a9a !important;
-
+$darkest: #444444;
 ./base.css:     border: 1px solid #444444 !important;
 
+$darker: #666666;
 ./base.css:     border: 0 solid #666666 !important;
 ./base.css:     border-right: 1px solid #666666 !important;
 ./base.css:     border-left: 1px solid #666666 !important;
@@ -30,22 +19,39 @@ Metal colour scheme
 ./base.css:     border-right: 1px solid #666666 !important;
 ./base.css:     border-left: 1px solid #666666 !important;
 
-
+$dark: #797979;
 ./base.css:     background: #797979 !important;
 ./base.css:     border-color: #797979 !important;
 
-
+$mid-dark: #9a9a9a;
 ./base.css:     background: #9a9a9a url("shadow-active-l.png") repeat-y top right !important;
 ./base.css:     background: #9a9a9a url("shadow-active-r.png") repeat-y top left !important;
+./base.css:     border-color: #9a9a9a !important;
+./base.css:     border-color: #9a9a9a !important;
+./tab.css:      border-color: #9a9a9a !important;
 
+$mid: #9d9d9d;
+./tab.css:      background: #9d9d9d !important;
+
+$mid-light: #acacac;
+./base.css:     background: #acacac !important;
+
+$light: #b3b2b3;
+./base.css:     background: #b3b2b3 !important;
+./base.css:     background: #b3b2b3 !important;
+./base.css:     background: #b3b2b3 !important;
+./tab.css:      background-color: #b3b2b3 !important;
+
+$lighter: #cecece;
 ./tab.css:      background: #cecece !important;
 ./base.css:     background: #cecece url("shadow-inactive-l.png") repeat-y top right !important;
 ./base.css:     background: #cecece url("shadow-inactive-r.png") repeat-y top left !important;
 
-
-
-
-
-
+$lightest: #e4e4e4;
+./base.css:     background: #e4e4e4 !important;
+./base.css:     background: #e4e4e4 !important;
 ./base.css:     background: #e4e4e4 !important;
 ./tab.css:      background: #e4e4e4 !important;
+
+$text-color: #FFFFFF;
+./tab.css: 		color: #FFFFFF !important; 

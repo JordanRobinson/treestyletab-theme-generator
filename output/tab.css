@@ -264,7 +264,7 @@
 .tabbrowser-tab:hover
 .tab-content[pinned][selected="true"] {
   line-height: 1 !important;
-  border: 1px solid #FF0000 !important;
+  border: 1px solid #0b0b0b !important;
   border-radius: 4px !important;
   -moz-border-radius: 4px !important;
   margin: 1px 0 0 1px !important;
@@ -283,7 +283,7 @@
 .tabbrowser-tabs[treestyletab-mode="vertical"]
 .tabbrowser-tab:hover
 .tab-content[selected="true"][pinned] {
-  background: #FF0000 !important;
+  background: #0b0b0b !important;
 }
 
 .tabbrowser-tabs[treestyletab-mode="vertical"]
@@ -364,6 +364,11 @@
 .tabbrowser-tab
 .tab-content[pinned] {
   border-color: #0b0b0b !important;
+}
+
+.tabbrowser-tab .tab-label {
+  color: #FFFFFF !important;
+  text-shadow: none !important;
 }
 
 /*# sourceMappingURL=tab.css.map */

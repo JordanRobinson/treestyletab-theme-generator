@@ -23,7 +23,8 @@ module.exports = function(grunt) {
                     text: '@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");'
                   },
                   files: {
-                    'output/tab.css': 'output/tab.css'
+                    'output/tab.css': 'output/tab.css',
+                    'output/base.css': 'output/base.css',                     
                   }
                 }
               }
