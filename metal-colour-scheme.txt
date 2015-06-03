@@ -1,0 +1,51 @@
+Metal colour scheme
+
+
+./base.css:     background: #b3b2b3 !important;
+./base.css:     background: #acacac !important;
+./base.css:     background: #e4e4e4 !important;
+./base.css:     background: #b3b2b3 !important;
+./base.css:     background: #e4e4e4 !important;
+./base.css:     border-color: #9a9a9a !important;
+./base.css:     border-color: #9a9a9a !important;
+./base.css:     background: #b3b2b3 !important;
+./tab.css:      background: #9d9d9d !important;
+./tab.css:      background-color: #b3b2b3 !important;
+./tab.css:      border-color: #9a9a9a !important;
+
+./base.css:     border: 1px solid #444444 !important;
+
+./base.css:     border: 0 solid #666666 !important;
+./base.css:     border-right: 1px solid #666666 !important;
+./base.css:     border-left: 1px solid #666666 !important;
+./base.css:     border-color: #666666 !important;
+./base.css:     border-color: #666666 !important;
+./tab.css:      border: 1px solid #666666 !important;
+./base.css:     border-right: 1px solid #666666 !important;
+./base.css:     border-left: 1px solid #666666 !important;
+./base.css:     border-top: 1px solid #666666 !important;
+./base.css:     border-color: #666666 !important;
+./base.css:     border-top: 1px solid #666666 !important;
+./base.css:     border: 1px solid #666666 !important;
+./base.css:     border-right: 1px solid #666666 !important;
+./base.css:     border-left: 1px solid #666666 !important;
+
+
+./base.css:     background: #797979 !important;
+./base.css:     border-color: #797979 !important;
+
+
+./base.css:     background: #9a9a9a url("shadow-active-l.png") repeat-y top right !important;
+./base.css:     background: #9a9a9a url("shadow-active-r.png") repeat-y top left !important;
+
+./tab.css:      background: #cecece !important;
+./base.css:     background: #cecece url("shadow-inactive-l.png") repeat-y top right !important;
+./base.css:     background: #cecece url("shadow-inactive-r.png") repeat-y top left !important;
+
+
+
+
+
+
+./base.css:     background: #e4e4e4 !important;
+./tab.css:      background: #e4e4e4 !important;
