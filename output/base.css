@@ -33,8 +33,8 @@
 }
 
 .tabbrowser-strip[treestyletab-mode="vertical"] {
-  background: #797979 !important;
-  border: 1px solid #444444 !important;
+  background: #2B2B2B !important;
+  border: 1px solid #191919 !important;
   border-width: 1px 0 0 !important;
   padding: 0 !important;
 }
@@ -73,8 +73,8 @@ tabbrowser[treestyletab-mode="vertical"]
 .treestyletab-splitter {
   appearance: none !important;
   -moz-appearance: none !important;
-  background: #b3b2b3 !important;
-  border: 0 solid #666666 !important;
+  background: #3D3D3D !important;
+  border: 0 solid #2B2B2B !important;
   min-width: 5px;
 }
 
@@ -84,7 +84,7 @@ tabbrowser[treestyletab-tabbar-position="left"]
 .treestyletab-splitter,
 .tabbrowser-strip[treestyletab-tabbar-position="left"][treestyletab-tabbar-fixed="true"],
 .treestyletab-tabbar-toolbar[treestyletab-tabbar-position="left"][treestyletab-tabbar-fixed="true"] {
-  border-right: 1px solid #666666 !important;
+  border-right: 1px solid #2B2B2B !important;
 }
 
 tabbrowser[treestyletab-tabbar-position="right"]
@@ -93,13 +93,13 @@ tabbrowser[treestyletab-tabbar-position="right"]
 .treestyletab-splitter,
 .tabbrowser-strip[treestyletab-tabbar-position="right"][treestyletab-tabbar-fixed="true"],
 .treestyletab-tabbar-toolbar[treestyletab-tabbar-position="right"][treestyletab-tabbar-fixed="true"] {
-  border-left: 1px solid #666666 !important;
+  border-left: 1px solid #2B2B2B !important;
 }
 
 :root:-moz-window-inactive
 .tabbrowser-strip[treestyletab-mode="vertical"] {
-  background: #acacac !important;
-  border-color: #797979 !important;
+  background: #333333 !important;
+  border-color: #2B2B2B !important;
 }
 
 :root:-moz-window-inactive
@@ -132,8 +132,8 @@ tabbrowser
 :root:-moz-window-inactive
 .treestyletab-tabbar-toolbar
 .treestyletab-splitter {
-  border-color: #666666 !important;
-  background: #e4e4e4 !important;
+  border-color: #2B2B2B !important;
+  background: #3D3D3D !important;
 }
 
 /* tab contents */
@@ -258,8 +258,8 @@ label {
 .treestyletab-tabbar-toolbar[treestyletab-mode="vertical"]
 > toolbarpaletteitem
 > toolbarbutton:hover {
-  background: #b3b2b3 !important;
-  border-top: 1px solid #666666 !important;
+  background: #3D3D3D !important;
+  border-top: 1px solid #2B2B2B !important;
 }
 
 .tabbrowser-tabs[treestyletab-mode="vertical"]
@@ -267,13 +267,13 @@ label {
 .tabs-newtab-button {
   margin-top: 1px !important;
   height: 18px !important;
-  border: 1px solid #666666 !important;
+  border: 1px solid #2B2B2B !important;
 }
 
 .tabbrowser-tabs[treestyletab-mode="vertical"]:not([treestyletab-tab-inverted="true"])
 .tabbrowser-arrowscrollbox
 .tabs-newtab-button {
-  background: #9a9a9a url("shadow-active-l.png") repeat-y top right !important;
+  background: #333333 url("shadow-active-l.png") repeat-y top right !important;
   margin-left: 6px !important;
   border-radius: 6px 0 0 6px;
   -moz-border-radius: 6px 0 0 6px;
@@ -282,7 +282,7 @@ label {
 .tabbrowser-tabs[treestyletab-mode="vertical"][treestyletab-tab-inverted="true"]
 .tabbrowser-arrowscrollbox
 .tabs-newtab-button {
-  background: #9a9a9a url("shadow-active-r.png") repeat-y top left !important;
+  background: #333333 url("shadow-active-r.png") repeat-y top left !important;
   margin-right: 6px !important;
   -moz-border-radius: 0 6px 6px 0;
 }
@@ -294,7 +294,7 @@ label {
 .treestyletab-tabbar-toolbar[treestyletab-tabbar-position="left"]
 > toolbarpaletteitem
 > toolbarbutton {
-  border-right: 1px solid #666666 !important;
+  border-right: 1px solid #2B2B2B !important;
 }
 
 .tabbrowser-tabs[treestyletab-tabbar-position="right"]
@@ -304,7 +304,7 @@ label {
 .treestyletab-tabbar-toolbar[treestyletab-tabbar-position="right"]
 > toolbarpaletteitem
 > toolbarbutton {
-  border-left: 1px solid #666666 !important;
+  border-left: 1px solid #2B2B2B !important;
 }
 
 :root:-moz-window-inactive
@@ -321,24 +321,24 @@ label {
 .treestyletab-tabbar-toolbar[treestyletab-mode="vertical"]
 > toolbarpaletteitem
 > toolbarbutton:hover {
-  background: #e4e4e4 !important;
-  border-color: #666666 !important;
+  background: #3D3D3D !important;
+  border-color: #2B2B2B !important;
 }
 
 :root:-moz-window-inactive
 .tabbrowser-tabs[treestyletab-mode="vertical"]:not([treestyletab-tab-inverted="true"])
 .tabbrowser-arrowscrollbox
 .tabs-newtab-button {
-  background: #cecece url("shadow-inactive-l.png") repeat-y top right !important;
-  border-color: #9a9a9a !important;
+  background: #3D3D3D url("shadow-inactive-l.png") repeat-y top right !important;
+  border-color: #333333 !important;
 }
 
 :root:-moz-window-inactive
 .tabbrowser-tabs[treestyletab-mode="vertical"][treestyletab-tab-inverted="true"]
 .tabbrowser-arrowscrollbox
 .tabs-newtab-button {
-  background: #cecece url("shadow-inactive-r.png") repeat-y top left !important;
-  border-color: #9a9a9a !important;
+  background: #3D3D3D url("shadow-inactive-r.png") repeat-y top left !important;
+  border-color: #333333 !important;
 }
 
 /* hacks for Tab Mix Plus */
@@ -351,22 +351,22 @@ tabbrowser[treestyletab-mode="vertical"]
 tabbrowser[treestyletab-mode="vertical"]
 .tabs-closebutton-topbox
 > .tabs-closebutton:hover {
-  background: #b3b2b3 !important;
-  border-top: 1px solid #666666 !important;
+  background: #3D3D3D !important;
+  border-top: 1px solid #2B2B2B !important;
 }
 
 :root[treestyletab-enable-compatibility-tmp="true"]
 tabbrowser[treestyletab-tabbar-position="left"]
 .tabs-closebutton-topbox
 > .tabs-closebutton {
-  border-right: 1px solid #666666 !important;
+  border-right: 1px solid #2B2B2B !important;
 }
 
 :root[treestyletab-enable-compatibility-tmp="true"]
 tabbrowser[treestyletab-tabbar-position="right"]
 .tabs-closebutton-topbox
 > .tabs-closebutton {
-  border-left: 1px solid #666666 !important;
+  border-left: 1px solid #2B2B2B !important;
 }
 
 :root[treestyletab-enable-compatibility-tmp="true"]:-moz-window-inactive
@@ -377,8 +377,8 @@ tabbrowser[treestyletab-mode="vertical"]
 tabbrowser[treestyletab-mode="vertical"]
 .tabs-closebutton-topbox
 > .tabs-closebutton:hover {
-  background: #e4e4e4 !important;
-  border-color: #666666 !important;
+  background: #3D3D3D !important;
+  border-color: #2B2B2B !important;
 }
 
 /*# sourceMappingURL=base.css.map */

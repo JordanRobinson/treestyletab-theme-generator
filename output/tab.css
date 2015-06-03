@@ -264,7 +264,7 @@
 .tabbrowser-tab:hover
 .tab-content[pinned][selected="true"] {
   line-height: 1 !important;
-  border: 1px solid #0b0b0b !important;
+  border: 1px solid #191919 !important;
   border-radius: 4px !important;
   -moz-border-radius: 4px !important;
   margin: 1px 0 0 1px !important;
@@ -283,7 +283,7 @@
 .tabbrowser-tabs[treestyletab-mode="vertical"]
 .tabbrowser-tab:hover
 .tab-content[selected="true"][pinned] {
-  background: #0b0b0b !important;
+  background: #191919 !important;
 }
 
 .tabbrowser-tabs[treestyletab-mode="vertical"]
@@ -292,7 +292,7 @@
 .tabbrowser-tabs[treestyletab-mode="vertical"]
 .tabbrowser-tab:hover
 .tab-content[selected="true"][pinned] {
-  background-color: #b3b2b3 !important;
+  background-color: #3D3D3D !important;
 }
 
 /* inactive */
@@ -345,7 +345,7 @@
 .tabbrowser-tabs[treestyletab-mode="vertical"]
 .tabbrowser-tab:hover
 .tab-content[pinned]:not([titlechanged]) {
-  background: #0b0b0b !important;
+  background: #191919 !important;
 }
 
 :root:-moz-window-inactive
@@ -356,18 +356,18 @@
 .tabbrowser-tabs[treestyletab-mode="vertical"]
 .tabbrowser-tab:hover
 .tab-content[pinned][selected="true"] {
-  background: #0b0b0b !important;
+  background: #191919 !important;
 }
 
 :root:-moz-window-inactive
 .tabbrowser-tabs[treestyletab-mode="vertical"]
 .tabbrowser-tab
 .tab-content[pinned] {
-  border-color: #0b0b0b !important;
+  border-color: #191919 !important;
 }
 
 .tabbrowser-tab .tab-label {
-  color: #FFFFFF !important;
+  color: #999999 !important;
   text-shadow: none !important;
 }
 
